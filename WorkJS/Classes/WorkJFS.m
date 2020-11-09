@@ -6,10 +6,15 @@
 //  Copyright © 2016年 James. All rights reserved.
 //
 
-#import "FlutterModel.h"
+#import "WorkJFS.h"
 
-@implementation FlutterModel
+@implementation WorkJFS
 
+-(void)log{
+    NSLog(@"============================");
+    NSLog(@"我是一个framework！  不是的 我是一个log");
+    NSLog(@"============================");
+}
 
 -(void)logModel{
     NSLog(@"============================");
