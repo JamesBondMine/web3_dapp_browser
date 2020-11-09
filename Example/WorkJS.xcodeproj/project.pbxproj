@@ -57,16 +57,16 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		621C211034E65A6AF2994D72 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		621C211034E65A6AF2994D72 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7DDABDDAE5CF93EBFA55FCB1 /* Pods-WorkJS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkJS_Example.release.xcconfig"; path = "Target Support Files/Pods-WorkJS_Example/Pods-WorkJS_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BDE74E5943C4E7E5B1BFD580 /* Pods-WorkJS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkJS_Tests.release.xcconfig"; path = "Target Support Files/Pods-WorkJS_Tests/Pods-WorkJS_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CB6C5DEC88E506A0EE38E86F /* Pods-WorkJS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkJS_Tests.debug.xcconfig"; path = "Target Support Files/Pods-WorkJS_Tests/Pods-WorkJS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		DE5E498BBC576903EA05BE21 /* Pods_WorkJS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WorkJS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E613F384A4F189D5F8A97299 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E613F384A4F189D5F8A97299 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E6E1F08CC33F69C034065031 /* Pods_WorkJS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WorkJS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F7E207B2955CBEE9F3FA25BF /* WorkJS.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = WorkJS.podspec; path = ../WorkJS.podspec; sourceTree = "<group>"; };
+		F7E207B2955CBEE9F3FA25BF /* WorkJS.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WorkJS.podspec; path = ../WorkJS.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				CB6C5DEC88E506A0EE38E86F /* Pods-WorkJS_Tests.debug.xcconfig */,
 				BDE74E5943C4E7E5B1BFD580 /* Pods-WorkJS_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

@@ -1,0 +1,788 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1830ED47C87254232C12A8FB3AEB20D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		1B3034F99E86E5E22E08E417B8A7F49E /* Pods-WorkJS_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8605E67A4CF9A095363D525BDD048A2D /* Pods-WorkJS_Example-dummy.m */; };
+		1E4330E1D19249414BE94347F0C06993 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		26B2F5C0790923E05049F7EFC8877238 /* FlutterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D41CE766E10AA056E0B076CE68084CD /* FlutterManager.m */; };
+		26B3AF7803C20568D117C094357C3A71 /* WorkJS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8C2D22D37820990C99E300A9DF06BE /* WorkJS-dummy.m */; };
+		411A347B5C7A89E99B848AC5B9DE6867 /* Pods-WorkJS_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A8D6ABE33983AFD8E8FE9D852AE7CEDB /* Pods-WorkJS_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43DF998F87F7448FB056D09D6EDB6290 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		45EC2255274F296AC95285379FFB9BE5 /* FlutterManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D325F3DB78DB18F0D996E55285AF5948 /* FlutterManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76A30F6AD1AEB30C3E9176091209C740 /* Pods-WorkJS_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 90EFB40545A40F9285FA5926C62086E3 /* Pods-WorkJS_Tests-dummy.m */; };
+		9A0DABF49E29A9EEAE08A28A78BE246E /* Pods-WorkJS_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 55D4A8B167455D7ECD91856E29391E32 /* Pods-WorkJS_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C37A5FA82C7AAFDF4F154B82C32F96A /* WorkJS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 84998920FA5558E187B569105CB65104 /* WorkJS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F5B2B0377A7C4AF60AF84E4EABD2179 /* FlutterManagerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D24CB8DE8E34EE209112A2C6A2E66280 /* FlutterManagerModel.m */; };
+		C06211D1D0742D8DE5E9B98CE37EF361 /* FlutterManagerModel.h in Headers */ = {isa = PBXBuildFile; fileRef = FF362F60A788E02A8AF5BD139861451D /* FlutterManagerModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED70DB4561FC7A8F89D967E3CABF969F /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C332EF4D4511A9133E1838515E3FABB /* ReplaceMe.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		670A69022A25BB9ED3E5ED98D7D5B37A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F25FA9C7924E528F758EE05BE1A91A5;
+			remoteInfo = WorkJS;
+		};
+		B45F975A1408037BABF608D5C1C130BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22B7B0E3BA7437DE1F86BC3A1BEE2DB5;
+			remoteInfo = "Pods-WorkJS_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02A74D1905D6F083B185D45315A3CA69 /* WorkJS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WorkJS-prefix.pch"; sourceTree = "<group>"; };
+		12599DECA6EDE0D2EABAE1F9C405A123 /* Pods-WorkJS_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WorkJS_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		17DFA676A0681762721EF6C284D397F2 /* Pods-WorkJS_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WorkJS_Example-frameworks.sh"; sourceTree = "<group>"; };
+		23D7F7A31B10EC9C62CCFBB4211789C6 /* Pods-WorkJS_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WorkJS_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		31ABF265FE55BA27982365110F77A9B0 /* WorkJS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WorkJS-Info.plist"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3435DCA675F5794EF68265E995B8BB49 /* Pods-WorkJS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WorkJS_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3D41CE766E10AA056E0B076CE68084CD /* FlutterManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FlutterManager.m; path = WorkJS/Classes/FlutterManager.m; sourceTree = "<group>"; };
+		3FF1FDD96E1A1B0A5787C1B2C9B1CAB5 /* Pods-WorkJS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WorkJS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4C332EF4D4511A9133E1838515E3FABB /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = WorkJS/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		55D4A8B167455D7ECD91856E29391E32 /* Pods-WorkJS_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WorkJS_Tests-umbrella.h"; sourceTree = "<group>"; };
+		5884C6BE49F8F66EBFAEB3ABA550D14B /* WorkJS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WorkJS.framework; path = WorkJS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D29C5C05F67325BD0243D0B2C77A55F /* Pods-WorkJS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WorkJS_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6066FCDDF69541E9374C72413CF25B18 /* Pods-WorkJS_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WorkJS_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6376A3027D3A10F2B5286AFF4F6404E8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6EF3C499217D52657CDBFBA6BEA301AB /* WorkJS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WorkJS.modulemap; sourceTree = "<group>"; };
+		7903BF5776A236F0EE9B7A42B8527BD1 /* Pods-WorkJS_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WorkJS_Example.modulemap"; sourceTree = "<group>"; };
+		83A5FDB7721997F603ED09C3C3E2A90F /* Pods-WorkJS_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WorkJS_Tests.modulemap"; sourceTree = "<group>"; };
+		84998920FA5558E187B569105CB65104 /* WorkJS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WorkJS-umbrella.h"; sourceTree = "<group>"; };
+		8567F56D998FF3A45579646992207556 /* Pods-WorkJS_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WorkJS_Example-Info.plist"; sourceTree = "<group>"; };
+		8605E67A4CF9A095363D525BDD048A2D /* Pods-WorkJS_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WorkJS_Example-dummy.m"; sourceTree = "<group>"; };
+		90EFB40545A40F9285FA5926C62086E3 /* Pods-WorkJS_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WorkJS_Tests-dummy.m"; sourceTree = "<group>"; };
+		939CDF9CECB8F42239EE67BE526EA988 /* Pods_WorkJS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WorkJS_Tests.framework; path = "Pods-WorkJS_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93EFB3B7C9A914CA81957F3AA8EE28AE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9553C5B08F945D192D8D047238E36824 /* WorkJS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WorkJS.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A808107F6F53FD77FA1173B6718792F1 /* Pods-WorkJS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WorkJS_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A8D6ABE33983AFD8E8FE9D852AE7CEDB /* Pods-WorkJS_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WorkJS_Example-umbrella.h"; sourceTree = "<group>"; };
+		AD8C2D22D37820990C99E300A9DF06BE /* WorkJS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WorkJS-dummy.m"; sourceTree = "<group>"; };
+		AE15958A7813FAE03B81FE083B5FF780 /* Pods_WorkJS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WorkJS_Example.framework; path = "Pods-WorkJS_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D24CB8DE8E34EE209112A2C6A2E66280 /* FlutterManagerModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FlutterManagerModel.m; path = WorkJS/Classes/FlutterManagerModel.m; sourceTree = "<group>"; };
+		D325F3DB78DB18F0D996E55285AF5948 /* FlutterManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlutterManager.h; path = WorkJS/Classes/FlutterManager.h; sourceTree = "<group>"; };
+		DBAFF2B05215ED1B2ACD818267DC2F81 /* Pods-WorkJS_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WorkJS_Tests-Info.plist"; sourceTree = "<group>"; };
+		E1346A951281E892BF8A6188840A715C /* WorkJS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WorkJS.release.xcconfig; sourceTree = "<group>"; };
+		F0E1B190F7ACD09ED2E36054BB3E158F /* Pods-WorkJS_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WorkJS_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F7838B1642582B79271C0E376ED29703 /* WorkJS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WorkJS.debug.xcconfig; sourceTree = "<group>"; };
+		FF362F60A788E02A8AF5BD139861451D /* FlutterManagerModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlutterManagerModel.h; path = WorkJS/Classes/FlutterManagerModel.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FF20DA5ADFE439BF91375B784EC5E8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1830ED47C87254232C12A8FB3AEB20D4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		802228B44D01290420AE636159D19159 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43DF998F87F7448FB056D09D6EDB6290 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AA6B41952DD1517B029115E8260136F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E4330E1D19249414BE94347F0C06993 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17408F143D6A0EB12C671F34C9DCAE2E /* WorkJS */ = {
+			isa = PBXGroup;
+			children = (
+				D325F3DB78DB18F0D996E55285AF5948 /* FlutterManager.h */,
+				3D41CE766E10AA056E0B076CE68084CD /* FlutterManager.m */,
+				FF362F60A788E02A8AF5BD139861451D /* FlutterManagerModel.h */,
+				D24CB8DE8E34EE209112A2C6A2E66280 /* FlutterManagerModel.m */,
+				4C332EF4D4511A9133E1838515E3FABB /* ReplaceMe.m */,
+				33FE987294E4A09043B3A8E2F782E2DC /* Pod */,
+				CF7A26F1B321F7A1CBA363BBCF310A05 /* Support Files */,
+			);
+			name = WorkJS;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		315A70858EEEDB61C27E3BFAEEA8D77D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE15958A7813FAE03B81FE083B5FF780 /* Pods_WorkJS_Example.framework */,
+				939CDF9CECB8F42239EE67BE526EA988 /* Pods_WorkJS_Tests.framework */,
+				5884C6BE49F8F66EBFAEB3ABA550D14B /* WorkJS.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33FE987294E4A09043B3A8E2F782E2DC /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				93EFB3B7C9A914CA81957F3AA8EE28AE /* LICENSE */,
+				6376A3027D3A10F2B5286AFF4F6404E8 /* README.md */,
+				9553C5B08F945D192D8D047238E36824 /* WorkJS.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		400318EBCF755A374B3F98BAC7E986AC /* Pods-WorkJS_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				83A5FDB7721997F603ED09C3C3E2A90F /* Pods-WorkJS_Tests.modulemap */,
+				23D7F7A31B10EC9C62CCFBB4211789C6 /* Pods-WorkJS_Tests-acknowledgements.markdown */,
+				6066FCDDF69541E9374C72413CF25B18 /* Pods-WorkJS_Tests-acknowledgements.plist */,
+				90EFB40545A40F9285FA5926C62086E3 /* Pods-WorkJS_Tests-dummy.m */,
+				DBAFF2B05215ED1B2ACD818267DC2F81 /* Pods-WorkJS_Tests-Info.plist */,
+				55D4A8B167455D7ECD91856E29391E32 /* Pods-WorkJS_Tests-umbrella.h */,
+				3FF1FDD96E1A1B0A5787C1B2C9B1CAB5 /* Pods-WorkJS_Tests.debug.xcconfig */,
+				5D29C5C05F67325BD0243D0B2C77A55F /* Pods-WorkJS_Tests.release.xcconfig */,
+			);
+			name = "Pods-WorkJS_Tests";
+			path = "Target Support Files/Pods-WorkJS_Tests";
+			sourceTree = "<group>";
+		};
+		99B399B78D974408D64BBA57F6D03908 /* Pods-WorkJS_Example */ = {
+			isa = PBXGroup;
+			children = (
+				7903BF5776A236F0EE9B7A42B8527BD1 /* Pods-WorkJS_Example.modulemap */,
+				F0E1B190F7ACD09ED2E36054BB3E158F /* Pods-WorkJS_Example-acknowledgements.markdown */,
+				12599DECA6EDE0D2EABAE1F9C405A123 /* Pods-WorkJS_Example-acknowledgements.plist */,
+				8605E67A4CF9A095363D525BDD048A2D /* Pods-WorkJS_Example-dummy.m */,
+				17DFA676A0681762721EF6C284D397F2 /* Pods-WorkJS_Example-frameworks.sh */,
+				8567F56D998FF3A45579646992207556 /* Pods-WorkJS_Example-Info.plist */,
+				A8D6ABE33983AFD8E8FE9D852AE7CEDB /* Pods-WorkJS_Example-umbrella.h */,
+				3435DCA675F5794EF68265E995B8BB49 /* Pods-WorkJS_Example.debug.xcconfig */,
+				A808107F6F53FD77FA1173B6718792F1 /* Pods-WorkJS_Example.release.xcconfig */,
+			);
+			name = "Pods-WorkJS_Example";
+			path = "Target Support Files/Pods-WorkJS_Example";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C5649D9F251BBDDB760ADA008AC68E90 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				17408F143D6A0EB12C671F34C9DCAE2E /* WorkJS */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				C5649D9F251BBDDB760ADA008AC68E90 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				315A70858EEEDB61C27E3BFAEEA8D77D /* Products */,
+				D9A52BF15BF5675D3418A768D1F7E220 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CF7A26F1B321F7A1CBA363BBCF310A05 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6EF3C499217D52657CDBFBA6BEA301AB /* WorkJS.modulemap */,
+				AD8C2D22D37820990C99E300A9DF06BE /* WorkJS-dummy.m */,
+				31ABF265FE55BA27982365110F77A9B0 /* WorkJS-Info.plist */,
+				02A74D1905D6F083B185D45315A3CA69 /* WorkJS-prefix.pch */,
+				84998920FA5558E187B569105CB65104 /* WorkJS-umbrella.h */,
+				F7838B1642582B79271C0E376ED29703 /* WorkJS.debug.xcconfig */,
+				E1346A951281E892BF8A6188840A715C /* WorkJS.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WorkJS";
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9A52BF15BF5675D3418A768D1F7E220 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				99B399B78D974408D64BBA57F6D03908 /* Pods-WorkJS_Example */,
+				400318EBCF755A374B3F98BAC7E986AC /* Pods-WorkJS_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		44CAF37E372255EED0E6555036D5D799 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45EC2255274F296AC95285379FFB9BE5 /* FlutterManager.h in Headers */,
+				C06211D1D0742D8DE5E9B98CE37EF361 /* FlutterManagerModel.h in Headers */,
+				9C37A5FA82C7AAFDF4F154B82C32F96A /* WorkJS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3A719345EE4A2B67EBD6F5093125861 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				411A347B5C7A89E99B848AC5B9DE6867 /* Pods-WorkJS_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD595080755280354438A809F97973C4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A0DABF49E29A9EEAE08A28A78BE246E /* Pods-WorkJS_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		22B7B0E3BA7437DE1F86BC3A1BEE2DB5 /* Pods-WorkJS_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA8AF5106DD8A9AA74C80991A32252F9 /* Build configuration list for PBXNativeTarget "Pods-WorkJS_Example" */;
+			buildPhases = (
+				F3A719345EE4A2B67EBD6F5093125861 /* Headers */,
+				34E5556C978D461463B5A1DCF1920660 /* Sources */,
+				5FF20DA5ADFE439BF91375B784EC5E8A /* Frameworks */,
+				ED6272035BDD88BEA97EBB1D1C099860 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9265D8DAA2111EAC65C88C621A12DDD7 /* PBXTargetDependency */,
+			);
+			name = "Pods-WorkJS_Example";
+			productName = "Pods-WorkJS_Example";
+			productReference = AE15958A7813FAE03B81FE083B5FF780 /* Pods_WorkJS_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7D89B20444B56F22447AEBD0AF261308 /* Pods-WorkJS_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB2C8A4E3E26E9B335EE949F11E39431 /* Build configuration list for PBXNativeTarget "Pods-WorkJS_Tests" */;
+			buildPhases = (
+				FD595080755280354438A809F97973C4 /* Headers */,
+				9110B59BC3489EE03958598565A2E6F1 /* Sources */,
+				8AA6B41952DD1517B029115E8260136F /* Frameworks */,
+				FE05EB80A1B6F51AC7B2F1D19286B875 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09B3A2320C1E53F137E0E1F1FA277B68 /* PBXTargetDependency */,
+			);
+			name = "Pods-WorkJS_Tests";
+			productName = "Pods-WorkJS_Tests";
+			productReference = 939CDF9CECB8F42239EE67BE526EA988 /* Pods_WorkJS_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7F25FA9C7924E528F758EE05BE1A91A5 /* WorkJS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 651D4BB7B32954B9D23C98DD56038770 /* Build configuration list for PBXNativeTarget "WorkJS" */;
+			buildPhases = (
+				44CAF37E372255EED0E6555036D5D799 /* Headers */,
+				4C0A104C08F2EFCDF8FA76784B512906 /* Sources */,
+				802228B44D01290420AE636159D19159 /* Frameworks */,
+				4FBD40760B43615A34ED6D262938BA1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WorkJS;
+			productName = WorkJS;
+			productReference = 5884C6BE49F8F66EBFAEB3ABA550D14B /* WorkJS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 315A70858EEEDB61C27E3BFAEEA8D77D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22B7B0E3BA7437DE1F86BC3A1BEE2DB5 /* Pods-WorkJS_Example */,
+				7D89B20444B56F22447AEBD0AF261308 /* Pods-WorkJS_Tests */,
+				7F25FA9C7924E528F758EE05BE1A91A5 /* WorkJS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4FBD40760B43615A34ED6D262938BA1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED6272035BDD88BEA97EBB1D1C099860 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE05EB80A1B6F51AC7B2F1D19286B875 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34E5556C978D461463B5A1DCF1920660 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B3034F99E86E5E22E08E417B8A7F49E /* Pods-WorkJS_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C0A104C08F2EFCDF8FA76784B512906 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26B2F5C0790923E05049F7EFC8877238 /* FlutterManager.m in Sources */,
+				9F5B2B0377A7C4AF60AF84E4EABD2179 /* FlutterManagerModel.m in Sources */,
+				ED70DB4561FC7A8F89D967E3CABF969F /* ReplaceMe.m in Sources */,
+				26B3AF7803C20568D117C094357C3A71 /* WorkJS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9110B59BC3489EE03958598565A2E6F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76A30F6AD1AEB30C3E9176091209C740 /* Pods-WorkJS_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09B3A2320C1E53F137E0E1F1FA277B68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WorkJS_Example";
+			target = 22B7B0E3BA7437DE1F86BC3A1BEE2DB5 /* Pods-WorkJS_Example */;
+			targetProxy = B45F975A1408037BABF608D5C1C130BE /* PBXContainerItemProxy */;
+		};
+		9265D8DAA2111EAC65C88C621A12DDD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WorkJS;
+			target = 7F25FA9C7924E528F758EE05BE1A91A5 /* WorkJS */;
+			targetProxy = 670A69022A25BB9ED3E5ED98D7D5B37A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		38C6422E0E2E903AAFE47C7BACBFD726 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3435DCA675F5794EF68265E995B8BB49 /* Pods-WorkJS_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WorkJS_Example/Pods-WorkJS_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WorkJS_Example/Pods-WorkJS_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		433A992712EBD5004660A304F12C8B2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FF1FDD96E1A1B0A5787C1B2C9B1CAB5 /* Pods-WorkJS_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WorkJS_Tests/Pods-WorkJS_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WorkJS_Tests/Pods-WorkJS_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		868B5C10D037BA999FEB391DD68B0F2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D29C5C05F67325BD0243D0B2C77A55F /* Pods-WorkJS_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WorkJS_Tests/Pods-WorkJS_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WorkJS_Tests/Pods-WorkJS_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9B3BFCB156119121B4EFC410B9CBFAF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7838B1642582B79271C0E376ED29703 /* WorkJS.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WorkJS/WorkJS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WorkJS/WorkJS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WorkJS/WorkJS.modulemap";
+				PRODUCT_MODULE_NAME = WorkJS;
+				PRODUCT_NAME = WorkJS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A856D6A7ECB579DE6C98B51CFB233A3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1346A951281E892BF8A6188840A715C /* WorkJS.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WorkJS/WorkJS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WorkJS/WorkJS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WorkJS/WorkJS.modulemap";
+				PRODUCT_MODULE_NAME = WorkJS;
+				PRODUCT_NAME = WorkJS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F006CDEDE668DB07A5429924623A22F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A808107F6F53FD77FA1173B6718792F1 /* Pods-WorkJS_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WorkJS_Example/Pods-WorkJS_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WorkJS_Example/Pods-WorkJS_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		651D4BB7B32954B9D23C98DD56038770 /* Build configuration list for PBXNativeTarget "WorkJS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B3BFCB156119121B4EFC410B9CBFAF0 /* Debug */,
+				A856D6A7ECB579DE6C98B51CFB233A3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB2C8A4E3E26E9B335EE949F11E39431 /* Build configuration list for PBXNativeTarget "Pods-WorkJS_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				433A992712EBD5004660A304F12C8B2B /* Debug */,
+				868B5C10D037BA999FEB391DD68B0F2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA8AF5106DD8A9AA74C80991A32252F9 /* Build configuration list for PBXNativeTarget "Pods-WorkJS_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38C6422E0E2E903AAFE47C7BACBFD726 /* Debug */,
+				F006CDEDE668DB07A5429924623A22F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

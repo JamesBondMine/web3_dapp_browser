@@ -1,0 +1,6 @@
+framework module WorkJS {
+  umbrella header "WorkJS-umbrella.h"
+
+  export *
+  module * { export * }
+}
