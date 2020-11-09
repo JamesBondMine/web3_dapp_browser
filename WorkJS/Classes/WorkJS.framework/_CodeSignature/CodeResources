@@ -4,71 +4,44 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Headers/FWork.h</key>
+		<key>Headers/WorkJFS.h</key>
 		<data>
-		ZdLMxl5WBBSLWSS0Yz9apjco57o=
+		EKU5AgBNdVcAhQX9GrjM6gtqKuk=
 		</data>
-		<key>Headers/FlutterManager.h</key>
+		<key>Headers/WorkJS.h</key>
 		<data>
-		FIZ4dIcezjsHQY0hJ1QMgJa1Cas=
-		</data>
-		<key>Headers/FlutterManagerModel.h</key>
-		<data>
-		UuDiONFTWHCxUPRSEhwkue6ztTU=
+		muUmXfh6qss/GhfS6Rn+HPAn19U=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		1giH00id5YQzENxSjtZtDrqM3X8=
+		u9nJfReAFnckbaWL944lS9JjAKk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		G0IcuwoJLSHBn5392OES6YqiXcg=
+		9abYkiL5kMu79NK4KkJfyagM5Bk=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/FWork.h</key>
+		<key>Headers/WorkJFS.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ZdLMxl5WBBSLWSS0Yz9apjco57o=
-			</data>
 			<key>hash2</key>
 			<data>
-			co8vs6MxdeSc5/dt0T8+sLwmYe0aNMSsL/Cb0y32iEs=
+			N3YwcinNB8E9a/nNvvsUq1037rOGMSBT5RQC18E8j/E=
 			</data>
 		</dict>
-		<key>Headers/FlutterManager.h</key>
+		<key>Headers/WorkJS.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			FIZ4dIcezjsHQY0hJ1QMgJa1Cas=
-			</data>
 			<key>hash2</key>
 			<data>
-			+if9Dn55tlZUXVsK7WjwUMSZy8jWb71H+ElOZDpfhzU=
-			</data>
-		</dict>
-		<key>Headers/FlutterManagerModel.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			UuDiONFTWHCxUPRSEhwkue6ztTU=
-			</data>
-			<key>hash2</key>
-			<data>
-			g9++nm7qYVbvSgJG8G64oiJ+k2m87xm0TtzQKKv8vKc=
+			wX6w3dUcU+Sx7rWgVnzkwGzBsMOUCojo9ok7dn5H+C4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			G0IcuwoJLSHBn5392OES6YqiXcg=
-			</data>
 			<key>hash2</key>
 			<data>
-			JG7ndZnksAZAcp1RCQm3LtTl7NChgiZwmPYEqhAgLlk=
+			yn4+FNbZL3hPR1VX5iCb4PASTfXOSznp5QLVvNrGrvk=
 			</data>
 		</dict>
 	</dict>

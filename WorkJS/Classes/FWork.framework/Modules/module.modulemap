@@ -1,6 +1,0 @@
-framework module FWork {
-  umbrella header "FWork.h"
-
-  export *
-  module * { export * }
-}

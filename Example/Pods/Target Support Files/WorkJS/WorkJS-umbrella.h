@@ -11,9 +11,9 @@
 #endif
 
 #import "FlutterModel.h"
-#import "FlutterManager.h"
-#import "FlutterManagerModel.h"
-#import "FWork.h"
+#import "WorkJFS.h"
+#import "WorkJFS.h"
+#import "WorkJS.h"
 
 FOUNDATION_EXPORT double WorkJSVersionNumber;
 FOUNDATION_EXPORT const unsigned char WorkJSVersionString[];

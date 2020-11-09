@@ -1,7 +1,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface FlutterManagerModel : NSObject
+@interface WorkJFS : NSObject
 
 @property (nonatomic, copy) NSString *title;
 @property (nonatomic, copy) NSString *desc;
