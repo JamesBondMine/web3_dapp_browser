@@ -6,14 +6,14 @@
 //  Copyright © 2016年 James. All rights reserved.
 //
 
-#import "FlutterManager.h"
+#import "FlutterModel.h"
 
-@implementation FlutterManager
+@implementation FlutterModel
 
 
--(void)log{
+-(void)logModel{
     NSLog(@"============================");
-    NSLog(@"我是一个framework！");
+    NSLog(@"我是一个framework！  不是的 我是一个类文件");
     NSLog(@"============================");
 }
 @end
