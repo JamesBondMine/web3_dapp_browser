@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WorkJS'
-  s.version          = '0.1.4'
+  s.version          = '0.1.5'
   s.summary          = 'A short description of WorkJS.'
 
 # This description is used to generate tags and improve search results.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  WorkJS
                        DESC
 
   s.homepage         = 'https://github.com/JamesBondMine/WorkJS'
@@ -27,7 +27,7 @@ TODO: Add long description of the pod here.
   s.author           = { 'JamesBondMine' => 'lujia58@outlook.com' }
   s.source           = { :git => 'https://github.com/JamesBondMine/WorkJS.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+  s.platform = :ios, "9.0"
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'WorkJS/Classes/**/*'
@@ -39,4 +39,5 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.vendored_frameworks = "Products/**/*.{framework}"
 end
