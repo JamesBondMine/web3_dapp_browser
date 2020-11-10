@@ -1,8 +1,8 @@
 {
   "name": "WorkJS",
-  "version": "0.1.3",
+  "version": "0.1.6",
   "summary": "A short description of WorkJS.",
-  "description": "TODO: Add long description of the pod here.",
+  "description": "WorkJS",
   "homepage": "https://github.com/JamesBondMine/WorkJS",
   "license": {
     "type": "MIT",
@@ -13,10 +13,11 @@
   },
   "source": {
     "git": "https://github.com/JamesBondMine/WorkJS.git",
-    "tag": "0.1.3"
+    "tag": "0.1.6"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "WorkJS/Classes/**/*"
+  "source_files": "WorkJS/Classes/**/*",
+  "vendored_frameworks": "Products/**/*.{framework}"
 }
