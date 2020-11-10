@@ -7,23 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00C32DF0B250CA4A53BA826659D6C7D3 /* WorkJS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B4E73976C504371F6350738B1CA825D /* WorkJS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1830ED47C87254232C12A8FB3AEB20D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		1B3034F99E86E5E22E08E417B8A7F49E /* Pods-WorkJS_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8605E67A4CF9A095363D525BDD048A2D /* Pods-WorkJS_Example-dummy.m */; };
 		1E4330E1D19249414BE94347F0C06993 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		20D9D03B89E69508407E24F7AC5D36E4 /* WorkJS in Sources */ = {isa = PBXBuildFile; fileRef = E93983FABF2FED27C3107E496C1E9AE3 /* WorkJS */; };
-		282E168F8246CA906932D21624F00D78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		2E7F5570843C89A2A84706E34E514DDA /* WorkJFS.h in Headers */ = {isa = PBXBuildFile; fileRef = A4CE5136A918A12E434851BD8385D131 /* WorkJFS.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		387B5461035B366ABCF47616FB288D8B /* WorkJS.h in Headers */ = {isa = PBXBuildFile; fileRef = B780221EA84A197EB44CB3F9AB15D30B /* WorkJS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		353108165D2B1FD782440E60D2F0D8EF /* WorkJS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B1BB32A100C66BED1E3039AD41003CB6 /* WorkJS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		411A347B5C7A89E99B848AC5B9DE6867 /* Pods-WorkJS_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A8D6ABE33983AFD8E8FE9D852AE7CEDB /* Pods-WorkJS_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		52762CB151568AE1F7A2D73DC30031FA /* module.modulemap in Sources */ = {isa = PBXBuildFile; fileRef = 711C387DD67C237809C01A104E8F63E0 /* module.modulemap */; };
-		53138C403F3A909C3CE62F4FAA77B2D4 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 2E084340ADBF12090EB375084344F617 /* Info.plist */; };
-		71DDAC2E1F7B053920B9471735D4F1A6 /* CodeResources in Sources */ = {isa = PBXBuildFile; fileRef = B2D34CBC8208059F56CAA5681903C3FA /* CodeResources */; };
+		4BC8FB685B656C989F9E15405904FEC5 /* WorkJS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA3BB682FA2EF775D0767508C315BEE7 /* WorkJS-dummy.m */; };
 		76A30F6AD1AEB30C3E9176091209C740 /* Pods-WorkJS_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 90EFB40545A40F9285FA5926C62086E3 /* Pods-WorkJS_Tests-dummy.m */; };
-		858F291B98B33920B74965809DE9B02B /* WorkJS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC7E212D97C79EA6238F21912FED89F /* WorkJS-dummy.m */; };
-		90EDE66F12484A5390B0BBA09F0D8FD2 /* WorkJFS.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B58EA0C76C724A85A768BA2A1DD89EE /* WorkJFS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9A0DABF49E29A9EEAE08A28A78BE246E /* Pods-WorkJS_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 55D4A8B167455D7ECD91856E29391E32 /* Pods-WorkJS_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FB5007B24BABDF58C1DAA451579CE6FB /* WorkJFS.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE6A1431F98761B96687526FBEA9AE1 /* WorkJFS.m */; };
+		AF150BEECBE1064B69241E95802213E7 /* WorkJFS.h in Headers */ = {isa = PBXBuildFile; fileRef = A2811B4C864FADD8BDF8AC4B5AEF6371 /* WorkJFS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CAA94AB8B57B08916557F3625EBB3F02 /* WorkJFS.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB51827B0D2278BC56E25B74D640F07 /* WorkJFS.m */; };
+		E089A13BD757D52E75D7EF08E9A11853 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,46 +38,41 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0AE6A1431F98761B96687526FBEA9AE1 /* WorkJFS.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WorkJFS.m; path = WorkJS/Classes/WorkJFS.m; sourceTree = "<group>"; };
 		12599DECA6EDE0D2EABAE1F9C405A123 /* Pods-WorkJS_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WorkJS_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		17DFA676A0681762721EF6C284D397F2 /* Pods-WorkJS_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WorkJS_Example-frameworks.sh"; sourceTree = "<group>"; };
-		184158D83584E48E7E6A767EF5EBEFF6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		1E5F479418C61124A4215318C735A0F1 /* WorkJS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WorkJS.framework; path = Products/WorkJS.framework; sourceTree = "<group>"; };
 		23D7F7A31B10EC9C62CCFBB4211789C6 /* Pods-WorkJS_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WorkJS_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2E084340ADBF12090EB375084344F617 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25CB69D3D8C5B752E8AE45EB69EBA3AF /* WorkJS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WorkJS.debug.xcconfig; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3435DCA675F5794EF68265E995B8BB49 /* Pods-WorkJS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WorkJS_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		34648D231899B4A8FB8466254C4BF4F2 /* WorkJS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WorkJS.release.xcconfig; sourceTree = "<group>"; };
 		3FF1FDD96E1A1B0A5787C1B2C9B1CAB5 /* Pods-WorkJS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WorkJS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		4B4E73976C504371F6350738B1CA825D /* WorkJS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WorkJS-umbrella.h"; sourceTree = "<group>"; };
 		55D4A8B167455D7ECD91856E29391E32 /* Pods-WorkJS_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WorkJS_Tests-umbrella.h"; sourceTree = "<group>"; };
 		5884C6BE49F8F66EBFAEB3ABA550D14B /* WorkJS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WorkJS.framework; path = WorkJS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D29C5C05F67325BD0243D0B2C77A55F /* Pods-WorkJS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WorkJS_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		603D914068358518FC7091EFAA37B13F /* WorkJS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WorkJS-prefix.pch"; sourceTree = "<group>"; };
 		6066FCDDF69541E9374C72413CF25B18 /* Pods-WorkJS_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WorkJS_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		6F0BC37BA6F179EEAD117BE08DC3F0E3 /* WorkJS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WorkJS.debug.xcconfig; sourceTree = "<group>"; };
-		711C387DD67C237809C01A104E8F63E0 /* module.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = module.modulemap; sourceTree = "<group>"; };
-		76A3CB57E9A286D7D5BF6C7085D0A426 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		7903BF5776A236F0EE9B7A42B8527BD1 /* Pods-WorkJS_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WorkJS_Example.modulemap"; sourceTree = "<group>"; };
 		83A5FDB7721997F603ED09C3C3E2A90F /* Pods-WorkJS_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WorkJS_Tests.modulemap"; sourceTree = "<group>"; };
 		8567F56D998FF3A45579646992207556 /* Pods-WorkJS_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WorkJS_Example-Info.plist"; sourceTree = "<group>"; };
 		8605E67A4CF9A095363D525BDD048A2D /* Pods-WorkJS_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WorkJS_Example-dummy.m"; sourceTree = "<group>"; };
 		90EFB40545A40F9285FA5926C62086E3 /* Pods-WorkJS_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WorkJS_Tests-dummy.m"; sourceTree = "<group>"; };
-		92844C6850D2EA55B388F5E21F79EEBE /* WorkJS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WorkJS.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		92D29CC1DE1EC4B7CE53D92F8BB19046 /* WorkJS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WorkJS.release.xcconfig; sourceTree = "<group>"; };
 		939CDF9CECB8F42239EE67BE526EA988 /* Pods_WorkJS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WorkJS_Tests.framework; path = "Pods-WorkJS_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9B58EA0C76C724A85A768BA2A1DD89EE /* WorkJFS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WorkJFS.h; sourceTree = "<group>"; };
-		9CC7E212D97C79EA6238F21912FED89F /* WorkJS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WorkJS-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A4CE5136A918A12E434851BD8385D131 /* WorkJFS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WorkJFS.h; path = WorkJS/Classes/WorkJFS.h; sourceTree = "<group>"; };
+		A2811B4C864FADD8BDF8AC4B5AEF6371 /* WorkJFS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WorkJFS.h; path = WorkJS/Classes/WorkJFS.h; sourceTree = "<group>"; };
 		A808107F6F53FD77FA1173B6718792F1 /* Pods-WorkJS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WorkJS_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A8D6ABE33983AFD8E8FE9D852AE7CEDB /* Pods-WorkJS_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WorkJS_Example-umbrella.h"; sourceTree = "<group>"; };
-		AB1B0C151FF44422FDE1912DA24500CD /* WorkJS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WorkJS-Info.plist"; sourceTree = "<group>"; };
 		AE15958A7813FAE03B81FE083B5FF780 /* Pods_WorkJS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WorkJS_Example.framework; path = "Pods-WorkJS_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B2D34CBC8208059F56CAA5681903C3FA /* CodeResources */ = {isa = PBXFileReference; includeInIndex = 1; path = CodeResources; sourceTree = "<group>"; };
-		B780221EA84A197EB44CB3F9AB15D30B /* WorkJS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WorkJS.h; sourceTree = "<group>"; };
+		B1BB32A100C66BED1E3039AD41003CB6 /* WorkJS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WorkJS-umbrella.h"; sourceTree = "<group>"; };
+		B55F36342A1E99EEC44F785289195911 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		CA3BB682FA2EF775D0767508C315BEE7 /* WorkJS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WorkJS-dummy.m"; sourceTree = "<group>"; };
+		CFB51827B0D2278BC56E25B74D640F07 /* WorkJFS.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WorkJFS.m; path = WorkJS/Classes/WorkJFS.m; sourceTree = "<group>"; };
+		D034CA51C0AB44C39CA4F4E1F783B650 /* WorkJS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WorkJS.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		DBAFF2B05215ED1B2ACD818267DC2F81 /* Pods-WorkJS_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WorkJS_Tests-Info.plist"; sourceTree = "<group>"; };
-		DCCD68B95745A940CB2F327AEB9848B6 /* WorkJS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WorkJS.modulemap; sourceTree = "<group>"; };
-		E93983FABF2FED27C3107E496C1E9AE3 /* WorkJS */ = {isa = PBXFileReference; includeInIndex = 1; path = WorkJS; sourceTree = "<group>"; };
+		EAAB99C21B85C95971A265DB9F25ABDA /* WorkJS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WorkJS-prefix.pch"; sourceTree = "<group>"; };
+		EB4F82C09E9C85CD69B3230CD80D534B /* WorkJS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WorkJS-Info.plist"; sourceTree = "<group>"; };
 		F0E1B190F7ACD09ED2E36054BB3E158F /* Pods-WorkJS_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WorkJS_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F4D177DA82AC4CB942FC5ED6DD43E561 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		F97E49D1B035AE0A4D1DB0FC6A396D8C /* WorkJS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WorkJS.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,11 +92,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AEE035D2FF878DA36A45C7D65777AA52 /* Frameworks */ = {
+		B9647A2103629943DF457BABFA402353 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				282E168F8246CA906932D21624F00D78 /* Foundation.framework in Frameworks */,
+				E089A13BD757D52E75D7EF08E9A11853 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,19 +113,10 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		361FAE01330C8FB0E79E5A99466F3973 /* Modules */ = {
-			isa = PBXGroup;
-			children = (
-				711C387DD67C237809C01A104E8F63E0 /* module.modulemap */,
-			);
-			name = Modules;
-			path = Modules;
-			sourceTree = "<group>";
-		};
 		38EC067661245A283C42D624CCA33968 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6C0B8DF71FE36F2B43398D0287F9922B /* WorkJS */,
+				635EB247613DC23916E183AAA4237842 /* WorkJS */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -157,42 +137,32 @@
 			path = "Target Support Files/Pods-WorkJS_Tests";
 			sourceTree = "<group>";
 		};
-		40E106442772E09C0248BC80592F2902 /* Support Files */ = {
+		635EB247613DC23916E183AAA4237842 /* WorkJS */ = {
 			isa = PBXGroup;
 			children = (
-				DCCD68B95745A940CB2F327AEB9848B6 /* WorkJS.modulemap */,
-				9CC7E212D97C79EA6238F21912FED89F /* WorkJS-dummy.m */,
-				AB1B0C151FF44422FDE1912DA24500CD /* WorkJS-Info.plist */,
-				603D914068358518FC7091EFAA37B13F /* WorkJS-prefix.pch */,
-				4B4E73976C504371F6350738B1CA825D /* WorkJS-umbrella.h */,
-				6F0BC37BA6F179EEAD117BE08DC3F0E3 /* WorkJS.debug.xcconfig */,
-				92D29CC1DE1EC4B7CE53D92F8BB19046 /* WorkJS.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/WorkJS";
-			sourceTree = "<group>";
-		};
-		4629B176C03EEA01A0924B5171681A6C /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				184158D83584E48E7E6A767EF5EBEFF6 /* LICENSE */,
-				76A3CB57E9A286D7D5BF6C7085D0A426 /* README.md */,
-				92844C6850D2EA55B388F5E21F79EEBE /* WorkJS.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		6C0B8DF71FE36F2B43398D0287F9922B /* WorkJS */ = {
-			isa = PBXGroup;
-			children = (
-				A4CE5136A918A12E434851BD8385D131 /* WorkJFS.h */,
-				0AE6A1431F98761B96687526FBEA9AE1 /* WorkJFS.m */,
-				4629B176C03EEA01A0924B5171681A6C /* Pod */,
-				40E106442772E09C0248BC80592F2902 /* Support Files */,
-				CE300E172B1FF41EC005307D38B63E17 /* WorkJS.framework */,
+				A2811B4C864FADD8BDF8AC4B5AEF6371 /* WorkJFS.h */,
+				CFB51827B0D2278BC56E25B74D640F07 /* WorkJFS.m */,
+				FAEA002856A1BB2060162342E6F68123 /* Frameworks */,
+				F0567A4AC076CFF710EB768F52D2DADA /* Pod */,
+				6B8FCC090469C543DF9CC773265FB6E7 /* Support Files */,
 			);
 			name = WorkJS;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		6B8FCC090469C543DF9CC773265FB6E7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F97E49D1B035AE0A4D1DB0FC6A396D8C /* WorkJS.modulemap */,
+				CA3BB682FA2EF775D0767508C315BEE7 /* WorkJS-dummy.m */,
+				EB4F82C09E9C85CD69B3230CD80D534B /* WorkJS-Info.plist */,
+				EAAB99C21B85C95971A265DB9F25ABDA /* WorkJS-prefix.pch */,
+				B1BB32A100C66BED1E3039AD41003CB6 /* WorkJS-umbrella.h */,
+				25CB69D3D8C5B752E8AE45EB69EBA3AF /* WorkJS.debug.xcconfig */,
+				34648D231899B4A8FB8466254C4BF4F2 /* WorkJS.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WorkJS";
 			sourceTree = "<group>";
 		};
 		99B399B78D974408D64BBA57F6D03908 /* Pods-WorkJS_Example */ = {
@@ -212,35 +182,12 @@
 			path = "Target Support Files/Pods-WorkJS_Example";
 			sourceTree = "<group>";
 		};
-		A4CD61308EB0581F946090E770D33FC6 /* Headers */ = {
-			isa = PBXGroup;
-			children = (
-				9B58EA0C76C724A85A768BA2A1DD89EE /* WorkJFS.h */,
-				B780221EA84A197EB44CB3F9AB15D30B /* WorkJS.h */,
-			);
-			name = Headers;
-			path = Headers;
-			sourceTree = "<group>";
-		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		CE300E172B1FF41EC005307D38B63E17 /* WorkJS.framework */ = {
-			isa = PBXGroup;
-			children = (
-				2E084340ADBF12090EB375084344F617 /* Info.plist */,
-				E93983FABF2FED27C3107E496C1E9AE3 /* WorkJS */,
-				F21042A2C3829C471A4FBCF6DEFF6B2D /* _CodeSignature */,
-				A4CD61308EB0581F946090E770D33FC6 /* Headers */,
-				361FAE01330C8FB0E79E5A99466F3973 /* Modules */,
-			);
-			name = WorkJS.framework;
-			path = WorkJS/Classes/WorkJS.framework;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -271,18 +218,36 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		F21042A2C3829C471A4FBCF6DEFF6B2D /* _CodeSignature */ = {
+		F0567A4AC076CFF710EB768F52D2DADA /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				B2D34CBC8208059F56CAA5681903C3FA /* CodeResources */,
+				B55F36342A1E99EEC44F785289195911 /* LICENSE */,
+				F4D177DA82AC4CB942FC5ED6DD43E561 /* README.md */,
+				D034CA51C0AB44C39CA4F4E1F783B650 /* WorkJS.podspec */,
 			);
-			name = _CodeSignature;
-			path = _CodeSignature;
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		FAEA002856A1BB2060162342E6F68123 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E5F479418C61124A4215318C735A0F1 /* WorkJS.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		621985965CADEA3B95E968486087E2E3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF150BEECBE1064B69241E95802213E7 /* WorkJFS.h in Headers */,
+				353108165D2B1FD782440E60D2F0D8EF /* WorkJS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F3A719345EE4A2B67EBD6F5093125861 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -296,17 +261,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A0DABF49E29A9EEAE08A28A78BE246E /* Pods-WorkJS_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FED95ADD542F78F6A06EB6882260FED4 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2E7F5570843C89A2A84706E34E514DDA /* WorkJFS.h in Headers */,
-				90EDE66F12484A5390B0BBA09F0D8FD2 /* WorkJFS.h in Headers */,
-				00C32DF0B250CA4A53BA826659D6C7D3 /* WorkJS-umbrella.h in Headers */,
-				387B5461035B366ABCF47616FB288D8B /* WorkJS.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,12 +307,12 @@
 		};
 		7F25FA9C7924E528F758EE05BE1A91A5 /* WorkJS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1725DC6256E15FF26594BEC00A247192 /* Build configuration list for PBXNativeTarget "WorkJS" */;
+			buildConfigurationList = E4BC415874CB61EF393C3044276EDA00 /* Build configuration list for PBXNativeTarget "WorkJS" */;
 			buildPhases = (
-				FED95ADD542F78F6A06EB6882260FED4 /* Headers */,
-				3EAB88A278C6C2310897DC9EF6D5CEAD /* Sources */,
-				AEE035D2FF878DA36A45C7D65777AA52 /* Frameworks */,
-				6AE38D09E316E01BC27EDF32323D2930 /* Resources */,
+				621985965CADEA3B95E968486087E2E3 /* Headers */,
+				A18241B2F0844DAB9C4236D4D698CE12 /* Sources */,
+				B9647A2103629943DF457BABFA402353 /* Frameworks */,
+				91F204F95E83EF5C60E9B54944F4DF93 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -399,7 +353,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6AE38D09E316E01BC27EDF32323D2930 /* Resources */ = {
+		91F204F95E83EF5C60E9B54944F4DF93 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -431,24 +385,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3EAB88A278C6C2310897DC9EF6D5CEAD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				71DDAC2E1F7B053920B9471735D4F1A6 /* CodeResources in Sources */,
-				53138C403F3A909C3CE62F4FAA77B2D4 /* Info.plist in Sources */,
-				52762CB151568AE1F7A2D73DC30031FA /* module.modulemap in Sources */,
-				FB5007B24BABDF58C1DAA451579CE6FB /* WorkJFS.m in Sources */,
-				20D9D03B89E69508407E24F7AC5D36E4 /* WorkJS in Sources */,
-				858F291B98B33920B74965809DE9B02B /* WorkJS-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		9110B59BC3489EE03958598565A2E6F1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				76A30F6AD1AEB30C3E9176091209C740 /* Pods-WorkJS_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A18241B2F0844DAB9C4236D4D698CE12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAA94AB8B57B08916557F3625EBB3F02 /* WorkJFS.m in Sources */,
+				4BC8FB685B656C989F9E15405904FEC5 /* WorkJS-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,9 +420,9 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1051750911BABDB7F9362E63984FD988 /* Debug */ = {
+		0EB3CA19370E0182F4BE45537E1C4D95 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6F0BC37BA6F179EEAD117BE08DC3F0E3 /* WorkJS.debug.xcconfig */;
+			baseConfigurationReference = 34648D231899B4A8FB8466254C4BF4F2 /* WorkJS.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -496,10 +446,11 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		38C6422E0E2E903AAFE47C7BACBFD726 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -627,38 +578,6 @@
 			};
 			name = Release;
 		};
-		543C51B16E2A80115E21D0D249FA7E87 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 92D29CC1DE1EC4B7CE53D92F8BB19046 /* WorkJS.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/WorkJS/WorkJS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/WorkJS/WorkJS-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/WorkJS/WorkJS.modulemap";
-				PRODUCT_MODULE_NAME = WorkJS;
-				PRODUCT_NAME = WorkJS;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -757,6 +676,37 @@
 			};
 			name = Release;
 		};
+		A4CD2DE0E64652A0E65E5FCD502F44B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25CB69D3D8C5B752E8AE45EB69EBA3AF /* WorkJS.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WorkJS/WorkJS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WorkJS/WorkJS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WorkJS/WorkJS.modulemap";
+				PRODUCT_MODULE_NAME = WorkJS;
+				PRODUCT_NAME = WorkJS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		F006CDEDE668DB07A5429924623A22F2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A808107F6F53FD77FA1173B6718792F1 /* Pods-WorkJS_Example.release.xcconfig */;
@@ -794,15 +744,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1725DC6256E15FF26594BEC00A247192 /* Build configuration list for PBXNativeTarget "WorkJS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1051750911BABDB7F9362E63984FD988 /* Debug */,
-				543C51B16E2A80115E21D0D249FA7E87 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -826,6 +767,15 @@
 			buildConfigurations = (
 				38C6422E0E2E903AAFE47C7BACBFD726 /* Debug */,
 				F006CDEDE668DB07A5429924623A22F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4BC415874CB61EF393C3044276EDA00 /* Build configuration list for PBXNativeTarget "WorkJS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4CD2DE0E64652A0E65E5FCD502F44B3 /* Debug */,
+				0EB3CA19370E0182F4BE45537E1C4D95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
