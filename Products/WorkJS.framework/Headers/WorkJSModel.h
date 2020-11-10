@@ -13,8 +13,14 @@
 @property (nonatomic, copy) NSString *title;
 @property (nonatomic, copy) NSString *desc;
 
+@property (readwrite, nonatomic, strong) NSURL *baseURL;
+
 -(void)log;
 
 -(void)logModel;
+
+- (NSString *)loadUrl:(NSString *)urlString;
+
++ (instancetype)manager;
 
 @end
