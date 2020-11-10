@@ -6,6 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <WorkJS/WorkJSModel.h>
 
 //! Project version number for JSWork.
 FOUNDATION_EXPORT double WorkJSVersionNumber;
