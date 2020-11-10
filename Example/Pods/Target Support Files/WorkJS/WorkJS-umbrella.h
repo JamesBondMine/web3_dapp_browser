@@ -11,8 +11,6 @@
 #endif
 
 #import "WorkJFS.h"
-#import "WorkJFS.h"
-#import "WorkJS.h"
 
 FOUNDATION_EXPORT double WorkJSVersionNumber;
 FOUNDATION_EXPORT const unsigned char WorkJSVersionString[];

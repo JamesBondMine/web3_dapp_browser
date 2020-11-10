@@ -2,17 +2,17 @@
 //  WorkJS.h
 //  WorkJS
 //
-//  Created by 牛路伽 on 2020/11/9.
+//  Created by 牛路伽 on 2020/11/10.
 //
 
 #import <Foundation/Foundation.h>
 
-//! Project version number for WorkJS.
+//! Project version number for JSWork.
 FOUNDATION_EXPORT double WorkJSVersionNumber;
 
-//! Project version string for WorkJS.
+//! Project version string for JSWork.
 FOUNDATION_EXPORT const unsigned char WorkJSVersionString[];
 
-// In this header, you should import all the public headers of your framework using statements like #import <WorkJS/PublicHeader.h>
+// In this header, you should import all the public headers of your framework using statements like #import <JSWork/PublicHeader.h>
 
 
