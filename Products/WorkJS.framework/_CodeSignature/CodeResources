@@ -8,6 +8,10 @@
 		<data>
 		5xoCxbTB77qryrRb1MWK1K1FJxs=
 		</data>
+		<key>Headers/WorkJSItem.h</key>
+		<data>
+		CT5Tr9s5MJZnrz2VaLLKMN7USkA=
+		</data>
 		<key>Headers/WorkJSModel.h</key>
 		<data>
 		Agh3WFOKtpM01UROO34coHq/eOw=
@@ -28,6 +32,13 @@
 			<key>hash2</key>
 			<data>
 			JC7KfaJwOid1YV0QG9C4kEsorXSew8I7w2hIVuOuQ58=
+			</data>
+		</dict>
+		<key>Headers/WorkJSItem.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			6OhA7rATapJrq5ekeSnQPBusHbgCfYpVUK0+6O1w0l4=
 			</data>
 		</dict>
 		<key>Headers/WorkJSModel.h</key>
