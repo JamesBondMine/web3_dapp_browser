@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WorkJS'
-  s.version          = '0.2.5'
+  s.version          = '0.2.6'
   s.summary          = 'A short description of WorkJS.'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
   s.platform = :ios, "9.0"
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'WorkJS/Classes/**/*'
+#  s.source_files = 'WorkJS/Classes/**/*'
   
   # s.resource_bundles = {
   #   'WorkJS' => ['WorkJS/Assets/*.png']
