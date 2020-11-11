@@ -1,6 +1,6 @@
 {
   "name": "WorkJS",
-  "version": "0.2.9",
+  "version": "0.3.0",
   "summary": "A short description of WorkJS.",
   "description": "WorkJS WorkJS WorkJS WorkJS WorkJS WorkJS WorkJS WorkJS WorkJS WorkJS",
   "homepage": "https://github.com/JamesBondMine/WorkJS",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/JamesBondMine/WorkJS.git",
-    "tag": "0.2.9"
+    "tag": "0.3.0"
   },
   "platforms": {
     "ios": "9.0"
