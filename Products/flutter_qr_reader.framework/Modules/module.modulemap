@@ -1,0 +1,6 @@
+framework module flutter_qr_reader {
+  umbrella header "flutter_qr_reader-umbrella.h"
+
+  export *
+  module * { export * }
+}

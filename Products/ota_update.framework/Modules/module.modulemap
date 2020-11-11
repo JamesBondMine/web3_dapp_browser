@@ -1,0 +1,6 @@
+framework module ota_update {
+  umbrella header "ota_update-umbrella.h"
+
+  export *
+  module * { export * }
+}

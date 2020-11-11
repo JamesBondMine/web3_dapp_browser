@@ -66,7 +66,7 @@
 		DE5E498BBC576903EA05BE21 /* Pods_WorkJS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WorkJS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E613F384A4F189D5F8A97299 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E6E1F08CC33F69C034065031 /* Pods_WorkJS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WorkJS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F7E207B2955CBEE9F3FA25BF /* WorkJS.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WorkJS.podspec; path = ../WorkJS.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F7E207B2955CBEE9F3FA25BF /* WorkJS.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WorkJS.podspec; path = ../WorkJS.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -302,11 +302,56 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-WorkJS_Example/Pods-WorkJS_Example-frameworks.sh",
-				"${PODS_ROOT}/../../Products/WorkJS.framework",
+				"${PODS_ROOT}/../../Products/App.framework",
+				"${PODS_ROOT}/../../Products/DKImagePickerController.framework",
+				"${PODS_ROOT}/../../Products/DKPhotoGallery.framework",
+				"${PODS_ROOT}/../../Products/file_picker.framework",
+				"${PODS_ROOT}/../../Products/Flutter.framework",
+				"${PODS_ROOT}/../../Products/fluttertoast.framework",
+				"${PODS_ROOT}/../../Products/flutter_filereader.framework",
+				"${PODS_ROOT}/../../Products/flutter_qr_reader.framework",
+				"${PODS_ROOT}/../../Products/FMDB.framework",
+				"${PODS_ROOT}/../../Products/image_picker.framework",
+				"${PODS_ROOT}/../../Products/install_plugin.framework",
+				"${PODS_ROOT}/../../Products/ota_update.framework",
+				"${PODS_ROOT}/../../Products/package_info.framework",
+				"${PODS_ROOT}/../../Products/path_provider.framework",
+				"${PODS_ROOT}/../../Products/SDWebImage.framework",
+				"${PODS_ROOT}/../../Products/shared_preferences.framework",
+				"${PODS_ROOT}/../../Products/simple_rsa.framework",
+				"${PODS_ROOT}/../../Products/sqflite.framework",
+				"${PODS_ROOT}/../../Products/SwiftyGif.framework",
+				"${PODS_ROOT}/../../Products/SwiftyRSA.framework",
+				"${PODS_ROOT}/../../Products/url_launcher.framework",
+				"${PODS_ROOT}/../../Products/video_player.framework",
+				"${PODS_ROOT}/../../Products/webview_flutter.framework",
 				"${BUILT_PRODUCTS_DIR}/WorkJS/WorkJS.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/App.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DKImagePickerController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DKPhotoGallery.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/file_picker.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Flutter.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/fluttertoast.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/flutter_filereader.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/flutter_qr_reader.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/image_picker.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/install_plugin.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ota_update.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/package_info.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/path_provider.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/shared_preferences.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/simple_rsa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/sqflite.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyGif.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyRSA.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/url_launcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/video_player.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/webview_flutter.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WorkJS.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,6 +543,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WorkJS/WorkJS-Prefix.pch";
 				INFOPLIST_FILE = "WorkJS/WorkJS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -514,6 +560,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WorkJS/WorkJS-Prefix.pch";
 				INFOPLIST_FILE = "WorkJS/WorkJS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

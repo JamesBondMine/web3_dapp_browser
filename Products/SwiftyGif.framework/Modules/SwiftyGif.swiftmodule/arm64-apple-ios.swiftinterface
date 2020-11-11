@@ -1,0 +1,129 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.3 (swiftlang-1200.0.29.2 clang-1200.0.30.1)
+// swift-module-flags: -target arm64-apple-ios8.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name SwiftyGif
+import Foundation
+import ImageIO
+import Swift
+@_exported import SwiftyGif
+import UIKit
+open class SwiftyGifManager {
+  public static var defaultManager: SwiftyGif.SwiftyGifManager
+  open var haveCache: Swift.Bool
+  open var remoteCache: [Foundation.URL : Foundation.Data]
+  public init(memoryLimit: Swift.Int)
+  @objc deinit
+  public func startTimerIfNeeded()
+  public func stopTimer()
+  open func addImageView(_ imageView: UIKit.UIImageView) -> Swift.Bool
+  open func deleteImageView(_ imageView: UIKit.UIImageView)
+  open func updateCacheSize(for imageView: UIKit.UIImageView, add: Swift.Bool)
+  open func clear()
+  open func containsImageView(_ imageView: UIKit.UIImageView) -> Swift.Bool
+  open func hasCache(_ imageView: UIKit.UIImageView) -> Swift.Bool
+}
+public typealias GifLevelOfIntegrity = Swift.Float
+extension Float {
+  public static let highestNoFrameSkipping: SwiftyGif.GifLevelOfIntegrity
+  public static let `default`: SwiftyGif.GifLevelOfIntegrity
+  public static let lowForManyGifs: SwiftyGif.GifLevelOfIntegrity
+  public static let lowForTooManyGifs: SwiftyGif.GifLevelOfIntegrity
+  public static let superLowForSlideShow: SwiftyGif.GifLevelOfIntegrity
+}
+extension UIImage {
+  convenience public init?(imageData: Foundation.Data, levelOfIntegrity: SwiftyGif.GifLevelOfIntegrity = .default) throws
+  convenience public init?(imageName: Swift.String, levelOfIntegrity: SwiftyGif.GifLevelOfIntegrity = .default) throws
+}
+extension UIImage {
+  convenience public init(gifData: Foundation.Data, levelOfIntegrity: SwiftyGif.GifLevelOfIntegrity = .default) throws
+  convenience public init(gifName: Swift.String, levelOfIntegrity: SwiftyGif.GifLevelOfIntegrity = .default) throws
+  public func setGifFromData(_ data: Foundation.Data, levelOfIntegrity: SwiftyGif.GifLevelOfIntegrity) throws
+  public func setGif(_ name: Swift.String) throws
+  public func framesCount() -> Swift.Int
+  public func setGif(_ name: Swift.String, levelOfIntegrity: SwiftyGif.GifLevelOfIntegrity) throws
+  public func clear()
+}
+extension UIImage {
+  public var imageSource: ImageIO.CGImageSource? {
+    get
+    set
+  }
+  public var displayRefreshFactor: Swift.Int? {
+    get
+    set
+  }
+  public var imageSize: Swift.Int? {
+    get
+    set
+  }
+  public var imageCount: Swift.Int? {
+    get
+    set
+  }
+  public var displayOrder: [Swift.Int]? {
+    get
+    set
+  }
+  public var imageData: Foundation.Data? {
+    get
+    set
+  }
+}
+@objc public protocol SwiftyGifDelegate {
+  @objc optional func gifDidStart(sender: UIKit.UIImageView)
+  @objc optional func gifDidLoop(sender: UIKit.UIImageView)
+  @objc optional func gifDidStop(sender: UIKit.UIImageView)
+  @objc optional func gifURLDidFinish(sender: UIKit.UIImageView)
+  @objc optional func gifURLDidFail(sender: UIKit.UIImageView, url: Foundation.URL, error: Swift.Error?)
+}
+extension UIImageView {
+  public func setImage(_ image: UIKit.UIImage, manager: SwiftyGif.SwiftyGifManager = .defaultManager, loopCount: Swift.Int = -1)
+}
+extension UIImageView {
+  convenience public init(gifImage: UIKit.UIImage, manager: SwiftyGif.SwiftyGifManager = .defaultManager, loopCount: Swift.Int = -1)
+  convenience public init(gifURL: Foundation.URL, manager: SwiftyGif.SwiftyGifManager = .defaultManager, loopCount: Swift.Int = -1)
+  public func setGifImage(_ gifImage: UIKit.UIImage, manager: SwiftyGif.SwiftyGifManager = .defaultManager, loopCount: Swift.Int = -1)
+}
+extension UIImageView {
+  @discardableResult
+  public func setGifFromURL(_ url: Foundation.URL, manager: SwiftyGif.SwiftyGifManager = .defaultManager, loopCount: Swift.Int = -1, levelOfIntegrity: SwiftyGif.GifLevelOfIntegrity = .default, session: Foundation.URLSession = URLSession.shared, showLoader: Swift.Bool = true, customLoader: UIKit.UIView? = nil) -> Foundation.URLSessionDataTask?
+}
+extension UIImageView {
+  public func startAnimatingGif()
+  public func stopAnimatingGif()
+  public func isAnimatingGif() -> Swift.Bool
+  public func showFrameForIndexDelta(_ delta: Swift.Int)
+  public func showFrameAtIndex(_ index: Swift.Int)
+  public func updateCache()
+  public func updateCurrentImage()
+  public func currentFrameIndex() -> Swift.Int
+  public func frameAtIndex(index: Swift.Int) -> UIKit.UIImage
+  public func isDiscarded(_ imageView: UIKit.UIView?) -> Swift.Bool
+  public func isDisplayedInScreen(_ imageView: UIKit.UIView?) -> Swift.Bool
+  public func clear()
+}
+extension UIImageView {
+  public var gifImage: UIKit.UIImage? {
+    get
+    set
+  }
+  public var currentImage: UIKit.UIImage? {
+    get
+    set
+  }
+  public var loopCount: Swift.Int {
+    get
+    set
+  }
+  public var animationManager: SwiftyGif.SwiftyGifManager? {
+    get
+    set
+  }
+  public var delegate: SwiftyGif.SwiftyGifDelegate? {
+    get
+    set
+  }
+  public var displaying: Swift.Bool {
+    get
+    set
+  }
+}
