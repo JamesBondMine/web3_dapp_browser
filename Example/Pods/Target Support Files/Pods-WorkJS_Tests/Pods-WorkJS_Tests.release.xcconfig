@@ -1,7 +1,7 @@
 FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/WorkJS" "${PODS_ROOT}/../../Products"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/WorkJS/WorkJS.framework/Headers"
-OTHER_LDFLAGS = $(inherited) -framework "App" -framework "DKImagePickerController" -framework "DKPhotoGallery" -framework "FMDB" -framework "Flutter" -framework "SDWebImage" -framework "SwiftyGif" -framework "SwiftyRSA" -framework "WorkJS" -framework "file_picker" -framework "flutter_filereader" -framework "flutter_qr_reader" -framework "fluttertoast" -framework "image_picker" -framework "install_plugin" -framework "ota_update" -framework "package_info" -framework "path_provider" -framework "shared_preferences" -framework "simple_rsa" -framework "sqflite" -framework "url_launcher" -framework "video_player" -framework "webview_flutter"
+OTHER_LDFLAGS = $(inherited) -framework "DKImagePickerController" -framework "DKPhotoGallery" -framework "FMDB" -framework "SDWebImage" -framework "SwiftyGif" -framework "SwiftyRSA" -framework "WorkJS" -framework "file_picker" -framework "flutter_filereader" -framework "flutter_qr_reader" -framework "fluttertoast" -framework "image_picker" -framework "install_plugin" -framework "ota_update" -framework "package_info" -framework "path_provider" -framework "shared_preferences" -framework "simple_rsa" -framework "sqflite" -framework "url_launcher" -framework "video_player" -framework "webview_flutter"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.

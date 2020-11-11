@@ -197,11 +197,9 @@ if [ -r "${ARTIFACT_LIST_FILE}" ]; then
 fi
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${PODS_ROOT}/../../Products/App.framework"
   install_framework "${PODS_ROOT}/../../Products/DKImagePickerController.framework"
   install_framework "${PODS_ROOT}/../../Products/DKPhotoGallery.framework"
   install_framework "${PODS_ROOT}/../../Products/file_picker.framework"
-  install_framework "${PODS_ROOT}/../../Products/Flutter.framework"
   install_framework "${PODS_ROOT}/../../Products/fluttertoast.framework"
   install_framework "${PODS_ROOT}/../../Products/flutter_filereader.framework"
   install_framework "${PODS_ROOT}/../../Products/flutter_qr_reader.framework"
@@ -223,11 +221,9 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/WorkJS/WorkJS.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${PODS_ROOT}/../../Products/App.framework"
   install_framework "${PODS_ROOT}/../../Products/DKImagePickerController.framework"
   install_framework "${PODS_ROOT}/../../Products/DKPhotoGallery.framework"
   install_framework "${PODS_ROOT}/../../Products/file_picker.framework"
-  install_framework "${PODS_ROOT}/../../Products/Flutter.framework"
   install_framework "${PODS_ROOT}/../../Products/fluttertoast.framework"
   install_framework "${PODS_ROOT}/../../Products/flutter_filereader.framework"
   install_framework "${PODS_ROOT}/../../Products/flutter_qr_reader.framework"
