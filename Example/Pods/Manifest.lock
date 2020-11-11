@@ -1,6 +1,10 @@
 PODS:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - WorkJS (0.3.0)
+=======
+  - WorkJS (0.2.9)
+>>>>>>> 1518f6026656aaac231daf117ff94b6d77d3568e
 =======
   - WorkJS (0.2.9)
 >>>>>>> 1518f6026656aaac231daf117ff94b6d77d3568e
@@ -14,7 +18,11 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
 <<<<<<< HEAD
+<<<<<<< HEAD
   WorkJS: 742bf73a31c432f4cd6469e62248f7e7303803ed
+=======
+  WorkJS: df6dcedfffc8ebb49caa622e4a2ab495de7e6ba4
+>>>>>>> 1518f6026656aaac231daf117ff94b6d77d3568e
 =======
   WorkJS: df6dcedfffc8ebb49caa622e4a2ab495de7e6ba4
 >>>>>>> 1518f6026656aaac231daf117ff94b6d77d3568e

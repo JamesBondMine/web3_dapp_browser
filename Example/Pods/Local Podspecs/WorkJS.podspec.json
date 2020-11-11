@@ -1,7 +1,11 @@
 {
   "name": "WorkJS",
 <<<<<<< HEAD
+<<<<<<< HEAD
   "version": "0.3.0",
+=======
+  "version": "0.2.9",
+>>>>>>> 1518f6026656aaac231daf117ff94b6d77d3568e
 =======
   "version": "0.2.9",
 >>>>>>> 1518f6026656aaac231daf117ff94b6d77d3568e
@@ -18,7 +22,11 @@
   "source": {
     "git": "https://github.com/JamesBondMine/WorkJS.git",
 <<<<<<< HEAD
+<<<<<<< HEAD
     "tag": "0.3.0"
+=======
+    "tag": "0.2.9"
+>>>>>>> 1518f6026656aaac231daf117ff94b6d77d3568e
 =======
     "tag": "0.2.9"
 >>>>>>> 1518f6026656aaac231daf117ff94b6d77d3568e
