@@ -302,6 +302,7 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-WorkJS_Example/Pods-WorkJS_Example-frameworks.sh",
+<<<<<<< HEAD
 				"${PODS_ROOT}/../../Products/App.framework",
 				"${PODS_ROOT}/../../Products/DKImagePickerController.framework",
 				"${PODS_ROOT}/../../Products/DKPhotoGallery.framework",
@@ -324,11 +325,14 @@
 				"${PODS_ROOT}/../../Products/SwiftyRSA.framework",
 				"${PODS_ROOT}/../../Products/url_launcher.framework",
 				"${PODS_ROOT}/../../Products/video_player.framework",
+=======
+>>>>>>> 1518f6026656aaac231daf117ff94b6d77d3568e
 				"${PODS_ROOT}/../../Products/webview_flutter.framework",
 				"${BUILT_PRODUCTS_DIR}/WorkJS/WorkJS.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+<<<<<<< HEAD
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/App.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DKImagePickerController.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DKPhotoGallery.framework",
@@ -351,6 +355,8 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyRSA.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/url_launcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/video_player.framework",
+=======
+>>>>>>> 1518f6026656aaac231daf117ff94b6d77d3568e
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/webview_flutter.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WorkJS.framework",
 			);

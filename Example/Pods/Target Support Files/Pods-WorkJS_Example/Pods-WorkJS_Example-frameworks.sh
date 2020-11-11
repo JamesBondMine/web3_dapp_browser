@@ -197,6 +197,7 @@ if [ -r "${ARTIFACT_LIST_FILE}" ]; then
 fi
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+<<<<<<< HEAD
   install_framework "${PODS_ROOT}/../../Products/App.framework"
   install_framework "${PODS_ROOT}/../../Products/DKImagePickerController.framework"
   install_framework "${PODS_ROOT}/../../Products/DKPhotoGallery.framework"
@@ -219,10 +220,13 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${PODS_ROOT}/../../Products/SwiftyRSA.framework"
   install_framework "${PODS_ROOT}/../../Products/url_launcher.framework"
   install_framework "${PODS_ROOT}/../../Products/video_player.framework"
+=======
+>>>>>>> 1518f6026656aaac231daf117ff94b6d77d3568e
   install_framework "${PODS_ROOT}/../../Products/webview_flutter.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/WorkJS/WorkJS.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+<<<<<<< HEAD
   install_framework "${PODS_ROOT}/../../Products/App.framework"
   install_framework "${PODS_ROOT}/../../Products/DKImagePickerController.framework"
   install_framework "${PODS_ROOT}/../../Products/DKPhotoGallery.framework"
@@ -245,6 +249,8 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${PODS_ROOT}/../../Products/SwiftyRSA.framework"
   install_framework "${PODS_ROOT}/../../Products/url_launcher.framework"
   install_framework "${PODS_ROOT}/../../Products/video_player.framework"
+=======
+>>>>>>> 1518f6026656aaac231daf117ff94b6d77d3568e
   install_framework "${PODS_ROOT}/../../Products/webview_flutter.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/WorkJS/WorkJS.framework"
 fi
