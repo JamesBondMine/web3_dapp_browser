@@ -1,5 +1,5 @@
 PODS:
-  - WorkJS (0.2.8)
+  - WorkJS (0.2.9)
 
 DEPENDENCIES:
   - WorkJS (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  WorkJS: c445cce76b2ce14355a418869b1ccf321cc1585d
+  WorkJS: df6dcedfffc8ebb49caa622e4a2ab495de7e6ba4
 
 PODFILE CHECKSUM: 5865a123f9636dea2f1afedc8503018d9bf4b85f
 
