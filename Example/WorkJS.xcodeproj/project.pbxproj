@@ -302,11 +302,9 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-WorkJS_Example/Pods-WorkJS_Example-frameworks.sh",
-				"${PODS_ROOT}/../../Products/App.framework",
 				"${PODS_ROOT}/../../Products/DKImagePickerController.framework",
 				"${PODS_ROOT}/../../Products/DKPhotoGallery.framework",
 				"${PODS_ROOT}/../../Products/file_picker.framework",
-				"${PODS_ROOT}/../../Products/Flutter.framework",
 				"${PODS_ROOT}/../../Products/fluttertoast.framework",
 				"${PODS_ROOT}/../../Products/flutter_filereader.framework",
 				"${PODS_ROOT}/../../Products/flutter_qr_reader.framework",
@@ -329,11 +327,9 @@
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/App.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DKImagePickerController.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DKPhotoGallery.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/file_picker.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Flutter.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/fluttertoast.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/flutter_filereader.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/flutter_qr_reader.framework",
